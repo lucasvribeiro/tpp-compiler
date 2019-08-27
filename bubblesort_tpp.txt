@@ -1,0 +1,35 @@
+inteiro tam := 50
+inteiro vetor[tam]
+
+bubbleSort()
+	inteiro: i, j, aux
+	aux := 0
+	i := 0
+	j := 0
+	
+	repita
+		repita
+			se vetor[j] > vetor[j+1] então
+				aux = vetor[j]
+				vetor[j] = vetor[j+1]
+				vetor[j+1] = aux
+			fim
+			j := j + 1
+		até j = tam - i - 1
+		
+		i := i + 1
+	até i = tam
+fim
+
+inteiro principal()
+	inteiro: i
+	i := 0
+	bubbleSort()
+
+	repita
+		escreva(vetor[i])
+		i := i + 1
+	até i = 50
+	
+	retorna(0)
+fim
