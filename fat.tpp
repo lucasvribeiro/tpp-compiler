@@ -15,6 +15,13 @@ inteiro fatorial(inteiro: n)
     fim
 fim
 
+{Oi}
+{
+    Teste
+    Som
+}
+$
+
 inteiro principal()
     leia(n)
     escreva(fatorial(n))
