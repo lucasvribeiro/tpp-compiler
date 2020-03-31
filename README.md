@@ -1,2 +1,3 @@
-# tpp-compiler
-A compiler for the T++, the programming language of the Compilers subject.
+# ☂ T++ Compiler
+
+This project is a compiler for T++ programming language. It was developed for the compilers subject.
